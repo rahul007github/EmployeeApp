@@ -8,7 +8,7 @@ const employeeCountElement = document.querySelector('#employeeCount');
 
 let items;
 let id;
-let employeeCount = 0; // Counter variable for total employees
+let employeeCount = 0; 
 
 function openModal(edit = false, index = 0) {
   modal.classList.add('active');
