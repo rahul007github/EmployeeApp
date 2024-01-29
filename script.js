@@ -48,7 +48,7 @@ function insertItem(item, index) {
   tr.innerHTML = `
     <td>${item.name}</td>
     <td>${item.position}</td>
-    <td>$ ${item.salary}</td>
+    <td>₹ ${item.salary}</td>
     <td class="action">
       <button onclick="editItem(${index})"><i class='bx bx-edit' ></i></button>
     </td>
